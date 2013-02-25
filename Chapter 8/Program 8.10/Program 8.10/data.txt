@@ -1,0 +1,16 @@
+<xml>
+
+<product>
+<name>Red Furby</name>
+<price>3400</price>
+</product>
+
+<product>
+<name>Blue Furby</name>
+<price>2700</price>
+</product>
+
+<product>
+<name>Green Furby</name>
+<price>4200</price>
+</product>
