@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<book>
+    <name>Hunter</name>
+    <price>40.0</price>
+    <copies>18</copies>
+</book>
+<book>
+    <name>Naruto</name>
+    <price>40.0</price>
+    <copies>5</copies>
+</book>
+<book>
+    <name>GTO</name>
+    <price>35.0</price>
+    <copies>5</copies>
+</book>
+

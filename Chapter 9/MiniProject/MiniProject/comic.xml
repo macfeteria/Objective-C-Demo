@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<book>
+    <name>Naruto</name>
+    <price>40.0</price>
+    <copies>10</copies>
+</book>
+<book>
+    <name>Doraemon</name>
+    <price>45.0</price>
+    <copies>8</copies>
+</book>
+<book>
+    <name>Berserk</name>
+    <price>50.0</price>
+    <copies>5</copies>
+</book>
+<book>
+    <name>Pokemon</name>
+    <price>25</price>
+    <copies>2</copies>
+</book>
+<book>
+    <name>Dragonball</name>
+    <price>30.0</price>
+    <copies>4</copies>
+</book>
+
