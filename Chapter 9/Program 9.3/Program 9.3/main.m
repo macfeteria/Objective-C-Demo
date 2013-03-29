@@ -23,6 +23,7 @@ int main(int argc, const char * argv[])
         NSLog(@"%@" , [urlDictionary objectForKey:@"google"]);
         NSLog(@"%@" , [urlDictionary objectForKey:@"tutorial"]);        
         
+        [urlDictionary release];
     }
     return 0;
 }
