@@ -31,8 +31,6 @@
 		D751B05A1719C5FA002D2414 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D751B05D1719C5FA002D2414 /* Program 11.9-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Program 11.9-Prefix.pch"; sourceTree = "<group>"; };
 		D751B05E1719C5FA002D2414 /* Program_11_9.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Program_11_9.1; sourceTree = "<group>"; };
-		D751B065171A12CF002D2414 /* arrayData.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = arrayData.xml; sourceTree = "<group>"; };
-		D751B066171A12CF002D2414 /* dictionaryData.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = dictionaryData.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +73,6 @@
 		D751B0591719C5FA002D2414 /* Program 11.9 */ = {
 			isa = PBXGroup;
 			children = (
-				D751B065171A12CF002D2414 /* arrayData.xml */,
-				D751B066171A12CF002D2414 /* dictionaryData.xml */,
 				D751B05A1719C5FA002D2414 /* main.m */,
 				D751B05E1719C5FA002D2414 /* Program_11_9.1 */,
 				D751B05C1719C5FA002D2414 /* Supporting Files */,

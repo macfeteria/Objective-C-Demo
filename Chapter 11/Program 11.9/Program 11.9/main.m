@@ -13,8 +13,14 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        NSURL* arrayURL = [NSURL URLWithString:@"http://macfeteria.com/feed"];
-        NSURL* dictURL = [NSURL URLWithString:@"http://macfeteria.com/feed"];
+        NSURL* arrayURL = [NSURL URLWithString:@"https://raw.github.com/macfeteria"
+        "/Objective-C-Demo/master/Chapter%2011/Program%2011.9/Program%2011.9/"
+        "arrayData.xml"];
+        
+        NSURL* dictURL = [NSURL URLWithString:@"https://raw.github.com/macfeteria"
+        "/Objective-C-Demo/master/Chapter%2011/Program%2011.9/Program%2011.9/"
+        "dictionaryData.xml"];
+        
         NSURL* arrayFileURL = [NSURL fileURLWithPath:@"/User/Ter/Desktop/array.txt"];
         
         NSDictionary* dictData = [NSDictionary dictionaryWithContentsOfURL:dictURL];
