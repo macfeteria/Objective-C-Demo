@@ -16,7 +16,7 @@ int main(int argc, const char * argv[])
     
     MacBook *macbookA = [[MacBook alloc] init];
     MacBook *macbookB = [[MacBook alloc] initWithSSDSize: 300];
-    
+        
     NSLog(@"MacBook A");
     macbookA.speed = 2.7;
     [macbookA printSpec];
