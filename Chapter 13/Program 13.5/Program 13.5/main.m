@@ -1,8 +1,8 @@
 //
 //  main.m
-//  Program 12.4
+//  Program 13.5
 //
-//  Created by Ter on 6/23/13.
+//  Created by Ter on 7/3/13.
 //  Copyright (c) 2013 Objective-C Book. All rights reserved.
 //
 
@@ -11,22 +11,16 @@
 
 int main(int argc, const char * argv[])
 {
-
+    
     @autoreleasepool {
         
         Product* apple = [[Product alloc] init];
-        Product* samsung;
+        [apple setName:@"Apple" andPrice:100];
         
-        [apple setName:@"Computer" andPrice:100];
-        
-        samsung = [apple copy];
-        
-        NSLog(@"%@",apple);
-        NSLog(@"%@",samsung);
+        NSString* file = [NSString stringWithFormat:@"%@/data.arch",NSHomeDirectory()];
+        [NSKeyedArchiver archiveRootObject:apple toFile:file];
         
         [apple release];
-        [samsung release];
-
         
     }
     return 0;
