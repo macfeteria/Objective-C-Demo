@@ -33,7 +33,7 @@
 -(void) start
 {
     
-    timer = [NSTimer scheduledTimerWithTimeInterval:0.1
+    timer = [NSTimer scheduledTimerWithTimeInterval:1.0
                                              target:self
                                            selector:@selector(updateData)
                                            userInfo:nil
