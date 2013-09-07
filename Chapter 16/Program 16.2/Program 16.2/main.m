@@ -1,27 +1,20 @@
 //
 //  main.m
-//  Program 16.1
+//  Program 16.2
 //
-//  Created by Ter on 8/31/13.
+//  Created by Ter on 9/7/13.
 //  Copyright (c) 2013 Ter. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "Student.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        Student* peter = [[Student alloc] init];
-
-//        [peter printProgram];
         // insert code here...
         NSLog(@"Hello, World!");
-        
-        
-
         
     }
     return 0;
