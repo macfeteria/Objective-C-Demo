@@ -20,7 +20,15 @@ int main(int argc, const char * argv[])
         // insert code here...
         NSLog(@"Hello, World!");
         
+        int a = 10 , b = 3 ;
+        int c , d;
+        c = 2 + a++ ;
+        d = ++b ;
         
+        
+        NSLog (@"a=%i b=%i c=%i d=%i",a , b , c , d);
+        
+
 
         
     }

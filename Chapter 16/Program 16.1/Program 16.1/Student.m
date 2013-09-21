@@ -8,7 +8,14 @@
 
 #import "Student.h"
 
+@interface Student ()
+{
+    NSString* school;
+}
+@end
+
 @implementation Student
+
 @synthesize courses = _courses;
 
 -(NSArray*) courses
