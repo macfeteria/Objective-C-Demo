@@ -13,5 +13,6 @@
     NSArray* _courses;
 }
 @property (retain,nonatomic) NSArray* courses;
-@property (assign) int score;
+-(void) printTotalCourse;
+
 @end

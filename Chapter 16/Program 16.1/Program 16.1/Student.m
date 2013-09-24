@@ -8,12 +8,6 @@
 
 #import "Student.h"
 
-@interface Student ()
-{
-    NSString* school;
-}
-@end
-
 @implementation Student
 
 @synthesize courses = _courses;
@@ -29,14 +23,6 @@
     NSLog(@"Courses %lu", (unsigned long)[_courses count]);
     NSLog(@"Courses %lu", (unsigned long)[self.courses count]);
     NSLog(@"Courses %lu", (unsigned long)[_courses count]);
-    
-
-    
 }
 
-//-(void) printProgram
-//{
-//    self.program = @"Software Engineering";
-//    NSLog(@"%@",_program);
-//}
 @end

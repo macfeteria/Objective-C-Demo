@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D760D66317EE3890001F922C /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = D760D66217EE3890001F922C /* Student.m */; };
 		D7F1D70817DB9E54007273D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F1D70717DB9E54007273D0 /* Foundation.framework */; };
 		D7F1D70B17DB9E54007273D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F1D70A17DB9E54007273D0 /* main.m */; };
 		D7F1D70F17DB9E54007273D0 /* Program_16_2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D7F1D70E17DB9E54007273D0 /* Program_16_2.1 */; };
@@ -27,8 +26,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D760D66117EE3890001F922C /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
-		D760D66217EE3890001F922C /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		D7F1D70417DB9E54007273D0 /* Program 16.2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Program 16.2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F1D70717DB9E54007273D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D7F1D70A17DB9E54007273D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -79,8 +76,6 @@
 				D7F1D70A17DB9E54007273D0 /* main.m */,
 				D7F1D70E17DB9E54007273D0 /* Program_16_2.1 */,
 				D7F1D70C17DB9E54007273D0 /* Supporting Files */,
-				D760D66117EE3890001F922C /* Student.h */,
-				D760D66217EE3890001F922C /* Student.m */,
 			);
 			path = "Program 16.2";
 			sourceTree = "<group>";
@@ -145,7 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F1D70B17DB9E54007273D0 /* main.m in Sources */,
-				D760D66317EE3890001F922C /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
