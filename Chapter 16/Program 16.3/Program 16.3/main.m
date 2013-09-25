@@ -21,19 +21,11 @@ int main(int argc, const char * argv[])
         [hakaru printInfo];
         
         hakaru = [[Player alloc] init];
-        saori = hakaru;
-        
-        buttonLabel = @"App";
-        navigationLabel = buttonLabel;
 
         //hakaru.age = @"20";
         NSLog(@"%@ %@ %@" , hakaru.name , hakaru.lastName , hakaru.age);
-        
-        [hakaru release];        
+
+        [hakaru release];
     }
     return 0;
 }
-
-//        NSLog(@"%@ %@ %@" , hakaru.name , hakaru.lastName , hakaru.age);
-//
-//        NSLog(@"%@", hakaru.fullName);

@@ -8,10 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Student: NSObject
-
-@end
-
 @interface Player : NSObject
 @property (copy) NSString* name;
 @property (copy) NSString* lastName;
