@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3400" systemVersion="13A603" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Classroom" representedClassName="Classroom" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teacher" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="studentList" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Student" inverseName="room" inverseEntity="Student" syncable="YES"/>
+    </entity>
+    <entity name="Student" representedClassName="Student" syncable="YES">
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="room" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Classroom" inverseName="studentList" inverseEntity="Classroom" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Classroom" positionX="-227" positionY="47" width="128" height="88"/>
+        <element name="Student" positionX="27" positionY="45" width="128" height="103"/>
+    </elements>
+</model>

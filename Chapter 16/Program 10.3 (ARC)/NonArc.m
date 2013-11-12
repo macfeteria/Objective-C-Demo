@@ -17,8 +17,6 @@
     return self;
 }
 
-
-
 -(void) dealloc
 {
     [text release];
